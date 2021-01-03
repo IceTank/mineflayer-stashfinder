@@ -1,0 +1,23 @@
+{
+  "author": "Ic3Tank",
+  "dependencies": {
+    "minecraft-data": "^2.71.0",
+    "mineflayer": "^2.40.1",
+    "mineflayer-pathfinder": "^1.2.3",
+    "vec3": "^0.1.7"
+  },
+  "description": "Logs found Shulker Boxes and Chests",
+  "devDependencies": {
+    "require-self": "^0.2.3",
+    "standard": "^16.0.1"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "mineflayer-stashfinder",
+  "scripts": {
+    "test": "npm run lint && require-self",
+    "lint": "standard",
+    "fix": "standard --fix"
+  },
+  "version": "1.0.0"
+}
